@@ -1,0 +1,23 @@
+class Vehicle{
+      void horn() {
+           System.out.println("pee pee");
+           
+      }
+}
+
+class Car extends Vehicle{
+     void brand() {
+          System.out.println("auddi");
+     }
+     
+}
+
+ public class Output {
+      public static void main(String []args){
+           Car obj=new Car();
+           obj.horn();
+           obj.brand();
+      
+           
+      }
+ } 
