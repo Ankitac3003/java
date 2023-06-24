@@ -1,0 +1,14 @@
+NOTE: private keyword allows only access withhin the same class, we cant access  PRIVATE atttribute value of one class in another class  
+EXAMPLE IS GIVEN BELOW
+
+public class Main {
+  private String fname = "Ankit";
+  private String lname = "Chauhan";
+  private int age = 24;
+  
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println("Name: " + myObj.fname + " " + myObj.lname);
+    System.out.println("Age: " + myObj.age);
+  }
+}
